@@ -2089,6 +2089,7 @@ Completed 302 Found in 4ms (ActiveRecord: 0.5ms)
   [1m[35m (0.1ms)[0m  commit transaction
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
   [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "students"
+<<<<<<< HEAD
 Processing by StudentsController#create as HTML
   Parameters: {"student"=>{"first_name"=>"Bill", "last_name"=>"Smith"}}
   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
@@ -2396,3 +2397,5 @@ Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms)
   [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "Daenerys"], ["last_name", "Targaryen"], ["created_at", "2018-04-17 02:30:49.517149"], ["updated_at", "2018-04-17 02:30:49.517149"]]
   [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
   [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+=======
+>>>>>>> 955d52de728e1fdbf41822cf08a638d01d2c9dbe
